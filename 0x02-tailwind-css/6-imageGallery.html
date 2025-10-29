@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grid and Flexbox Layout</title>
+    <title>Image Gallery</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./src/output.css">
             <style>
@@ -26,6 +26,13 @@
         </section>
         <aside class="bg-green-200 p-4">Sidebar</aside>
     </main>
+    <section class="grid grid-cols-1 p-6 lg:grid-cols-3 gap-4">
+        <div>
+            <img src="/0x02-tailwind-css/src/public/M5.jpeg"  alt="BMW M5 CS"/>
+        </div>
+        <div> <img src="/0x02-tailwind-css/src/public/Cls.webp"  alt="CLS 63 Amg"/></div>
+        <div> <img src="/0x02-tailwind-css/src/public/rs7.webp"  alt="rs7"/></div>
+    </section>
 
     <footer class="bg-gray-800 text-white p-4 mt-4">
         <p>&copy; 2025 Afolabi Adedeji's Blog</p>
