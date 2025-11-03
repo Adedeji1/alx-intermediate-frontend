@@ -1,0 +1,9 @@
+Used the prompt "npm install -g sass"
+
+Here is the breakdown
+npm stands for "Node Package Manager"
+install stands for Installation 
+-g stands for global Installation
+and Sass refers to the dependendcy being installed
+
+while the installation was confirmed with the propmt "npm list sass" and also "sass --version"
